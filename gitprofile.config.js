@@ -63,7 +63,15 @@ const config = {
       to: 'Present',
     },
   ],
-  externalProjects: [],
+  externalProjects: [
+    {
+      title: 'GetStory.io',
+      description:
+        'A website for downloading Instagram Stories, built with Nuxt.js and FastAPI.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://getstory.io',
+    },
+  ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev

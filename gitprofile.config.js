@@ -136,8 +136,8 @@ const config = {
 
     // Custom theme
     business: {
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
+      '--rounded-box': '10rem',
+      '--rounded-btn': '10rem',
     },
   },
 };

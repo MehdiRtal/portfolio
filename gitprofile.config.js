@@ -4,9 +4,9 @@ const config = {
   github: {
     username: 'MehdiRtal', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 14, // How many projects to display.
+    limit: 10, // How many projects to display.
     exclude: {
-      forks: true, // Forked projects will not be displayed if set to true.
+      forks: false, // Forked projects will not be displayed if set to true.
       projects: ['MehdiRtal'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -27,8 +27,8 @@ const config = {
     fileUrl: 'https://cdn.discordapp.com/attachments/921071851365617736/1030445085613097060/Mehdi_Rtals_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'C',
     'Python',
+    'FastAPI',
     'Django',
     'Flask',
     'Qt',
@@ -36,6 +36,7 @@ const config = {
     'CSS',
     'JavaScript',
     'Vue.js',
+    'Nuxt.js',
     'SQLite',
     'PostgreSQL',
     'Git',
@@ -67,7 +68,7 @@ const config = {
     {
       title: 'GetStory.io',
       description:
-        'A website for downloading Instagram Stories, built with Nuxt.js and FastAPI.',
+        'Download Instagram Stories, built with Nuxt.js and FastAPI.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://getstory.io',
     },

@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 16, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['MehdiRtal'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['MehdiRtal/MehdiRtal', 'MehdiRtal/1990'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {

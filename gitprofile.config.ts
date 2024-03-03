@@ -16,8 +16,8 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 14, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 16, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['MehdiRtal'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -53,7 +53,7 @@ const CONFIG = {
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '@MehdiRtal',
+    telegram: 'MehdiRtal',
     website: '',
     phone: '',
     email: 'mehdirtal7@pm.me',
